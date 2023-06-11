@@ -8,5 +8,12 @@ void main(List<String> args) {
   // Class에서 변수나 property 선언시 타입을 지정해줌
   String strName = "name";
 
+  // 3. dynamic 변수 선언
+  // type을 고정하지 않고 사용가능.
+  dynamic dynName;
+  dynName = 'name';
+  dynName = 1;
+  dynName = true;
+
 
 }
