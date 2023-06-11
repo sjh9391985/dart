@@ -15,5 +15,9 @@ void main(List<String> args) {
   dynName = 1;
   dynName = true;
 
+  // 4. null safety 변수
+  // 변수에 null 참조가 필요한 경우에 사용
+  String? nullAble = 'null';
+  nullAble = null;
 
 }
