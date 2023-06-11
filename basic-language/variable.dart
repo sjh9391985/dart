@@ -20,4 +20,10 @@ void main(List<String> args) {
   String? nullAble = 'null';
   nullAble = null;
 
+  // 5. final
+  // 한 번 정의된 변수를 수정 불가능하게 함.
+  final finalName = "fName"; // finalName = "changeErr";
+  
+
+
 }
