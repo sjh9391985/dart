@@ -24,6 +24,10 @@ void main(List<String> args) {
   // 한 번 정의된 변수를 수정 불가능하게 함.
   final finalName = "fName"; // finalName = "changeErr";
   
+  // 6. late
+  // 값을 초기 할당하지 않고 나중에 할당받은 값을 변수에 넣어줌
+  late var lateName;
+  lateName = 'Data';
 
 
 }
