@@ -9,7 +9,7 @@ void main(List<String> args) {
   String strName = "name";
 
   // 3. dynamic 변수 선언
-  // type을 고정하지 않고 사용가능.
+  // type을 고정하지 않고 사용가능함.
   dynamic dynName;
   dynName = 'name';
   dynName = 1;
