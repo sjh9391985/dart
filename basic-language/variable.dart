@@ -29,5 +29,8 @@ void main(List<String> args) {
   late var lateName;
   lateName = 'Data';
 
+  // 7. const
+  // compile-time constant를 만들어줌. 
+  const max_alloowed_price = 120; // 어플리케이션에 담긴 코드를 앱스토어에 보내기 전.
 
 }
