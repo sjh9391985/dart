@@ -12,4 +12,15 @@ void main(List<String> args) {
   print(numbers);
 
 
+  // 2. collection for
+  var oldFriends = ["toya", "suya"];
+  var newFriends = [
+    "nini",
+    "nunu",
+    for (var friend in oldFriends) "Couple $friend", 
+  ];
+
+  print(newFriends);
+
+
 }
