@@ -22,5 +22,12 @@ void main(List<String> args) {
 
   print(newFriends);
 
+  // 3. maps
+  var player = {
+    'name' : 'toya',
+    'xp' : 19.99,
+    'superpower' : false,
+  };
+
 
 }
