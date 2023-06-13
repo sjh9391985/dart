@@ -5,6 +5,8 @@ void main(List<String> args) {
     age: 20,
     country: "korea"
     ));
+
+  intro("to", 10);
 }
 
 void sayHello(String name){
@@ -22,4 +24,12 @@ String np({
   String country = "nk"
   }){
   return "Name is $name , Age is $age, Country is $country";
+}
+
+String intro(
+  String name,
+  int age,
+  [String? country = "korea"]
+){
+  return "Hello $name, you are $age years from $country";
 }
