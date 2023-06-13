@@ -33,3 +33,10 @@ String intro(
 ){
   return "Hello $name, you are $age years from $country";
 }
+
+  // 2. typeDef
+  typedef LOI = List<int>;
+  LOI reverseListOfNumbers(dynamic list){
+    var reversed = list.reversed;
+    return reversed.toList();
+  }
