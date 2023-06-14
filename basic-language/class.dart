@@ -1,7 +1,8 @@
 class Player {
-  String name = 'toya'; // final 붙이면 변경 불가능
-  int xp = 1500;
+  late String name; // final 붙이면 변경 불가능
+  late int xp;
 
+  Player(this.name, this.xp);
 
   void sayHello() {
     print("my name is $name");
@@ -9,7 +10,8 @@ class Player {
 }
 
 void main(List<String> args) {
-  var player = Player();
+  var player = Player("toya", 1500);
+  // var player = Player();
   print(player.name);
   player.name = 'suya';
   print(player.name);
