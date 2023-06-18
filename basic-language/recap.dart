@@ -1,5 +1,9 @@
+abstract class Human {
+  void walk();
+  
+}
 enum Team {red, blue} 
-class Player {
+class Player extends Human{
 
   String name;
   int xp;
@@ -11,6 +15,12 @@ class Player {
   : name = playerJson['name'],
     xp = playerJson['xp'], 
     team = playerJson['team'];
+
+  @override
+  void walk() {
+    // TODO: implement walk
+    print("walk");
+  }
 }
 
 void main(List<String> args) {
