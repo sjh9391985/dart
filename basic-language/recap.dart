@@ -1,8 +1,9 @@
+enum Team {red, blue} 
 class Player {
 
   String name;
   int xp;
-  String team;
+  Team team;
   
   Player({required this.name, required this.xp, required this.team});
 
@@ -14,9 +15,9 @@ class Player {
 
 void main(List<String> args) {
   
-  var toya = Player(name: "toya", xp: 1200, team: 'red')
+  var toya = Player(name: "toya", xp: 1200, team: Team.red)
     ..name = 'suya'
-    ..team = 'blue';
+    ..team = Team.blue;
 
   // var apiData = [
   //  {
